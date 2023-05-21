@@ -1,0 +1,185 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* body,
+  html {
+    background-color: #9c835f !important;
+  }   */
+
+  .section-game {
+    min-height: 100vh;
+    background-color: #9c835f !important;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    position: relative;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+      .button-back img {
+          margin-top: 1.5rem;
+          margin-left: 1rem;
+      }
+
+      .navbar-logo-game img.logo-game {
+          height: 72px; 
+          width: 72px;
+          margin-left: 3.5rem;
+          margin-top: 1rem;
+      }  
+
+      .navbar-text-game {
+          font-family: "Open Sans", sans-serif;
+          margin-top: 1.5rem;
+          margin-left: 3rem;
+          font-style: normal;
+          font-weight: 800;
+          font-size: 36px;
+          color: #F9B23D;
+          text-shadow: 2px 0.5px #6b480e;
+          text-decoration: none;
+      }
+    
+    .main-game {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 90vh;     
+    }
+   
+      .choice {
+          align-self: center;
+          width: 100%;
+          min-width: 5rem;
+      }
+
+        .choice-text {
+            text-align: center;
+            padding: 1rem;
+          }
+          
+        .choice-text h2 {
+            font-family: "Open Sans", sans-serif;
+            font-size: 2rem;
+            line-height: 49px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            color: black;
+            font-weight: bold;
+        }
+
+        .choice-user {
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+
+        .choice-user img {
+            height: 100px;
+            width: 100px;
+        }
+
+        .choice-user button {
+            background: transparent;
+            border: unset;
+            max-width: 9rem;
+            width: 100%;
+            min-width: 4rem;
+            padding: 1rem 1rem;
+            border-radius: 20%;
+          }
+
+      .vs-text-result {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          position: relative;
+          align-items: center;
+      }  
+
+        .vs-text {
+            align-items: center;
+            position: relative;
+            max-width: 100rem;
+            margin-top: 10rem;
+            /* margin-left: 2rem; */
+            color: red;
+            font-size: 4rem;
+            font-weight: bold;
+            font-style: normal;
+          }
+
+        .box-result {
+            position: relative;
+            align-items: center;
+            background: #4c9654;
+            border-radius: 10px;
+            height: 150px;
+            width: 250px;
+            margin-left: 1rem;
+            margin-bottom: 12rem;
+            margin-top: -10rem;
+            transform: rotate(-28.87deg);
+        }  
+
+          .text-result {
+              font-family: "Open Sans", sans-serif;
+              font-weight: bold;
+              font-size: 2rem;
+              color: #ffffff;
+              text-shadow: 2px 2px 4px #000000;
+              text-align: center;
+              align-items: center;
+              text-transform: uppercase;
+          }
+
+      .refresh {
+        display: flex;
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+      }
+
+        .refresh img{
+          width: 70px;
+          height: 60px;
+        }
+
+        .refresh button {
+          display: flex;
+          margin: auto;
+          padding: 0;
+          background: transparent;
+          border: unset;
+          width: 5rem;
+        }
+
+        .refresh button:hover {
+          animation: rotate 1s normal;
+        }
+        
+        @keyframes rotate {
+          50% {
+            transform: rotate(180deg);
+          }
+        }
+        
+        @keyframes wave {
+          25% {
+            transform: rotate(10deg);
+          }
+          75% {
+            transform: rotate(-10deg);
+          }
+        }
+        
+
+    

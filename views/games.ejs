@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/games/logo-binar.svg" type="image/svg+xml" />
+    <title>Challenge Chapter 4 Binar</title>
+    <link rel="stylesheet" type="text/css" href="css/games/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@500&family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="section-game">
+        <div class="container-fluid">
+            <!-- Navbar game start -->
+            <nav id="navbar-game">
+                <div class="button-back">
+                    <a href="/"><img src="img/games/button-back.png" alt="button-back" ></a>
+                </div>
+                <div class="navbar-logo-game">
+                    <img class="logo-game" src="img/games/navbar-logo-game.png" alt="">
+                </div>
+                <div class="navbar-text-game">
+                    <h1>ROCK PAPER SCISSORS</h1>
+                </div>
+            </nav>
+            <!-- Navbar game end -->
+
+            <!-- Main game start -->
+            <div class="main-game">
+                <!-- Choice Player start -->
+                <div class="choice">
+                  <div class="choice-text">
+                    <h2>PLAYER</h2>
+                  </div>
+                  <div class="choice-user">
+                    <button class="choice-rock">
+                      <img src="img/games/rock.png" alt="rock" id="player-rock" onclick="choiceRock()"/>
+                    </button>
+                    <button class="choice-paper">
+                      <img src="img/games/paper.png" alt="paper" id="player-paper" onclick="choicePaper()"/>
+                    </button>
+                    <button class="choice-scissors">
+                      <img src="img/games/scissors.png" alt="scissors" id="player-scissors" onclick="choiceScissors()"/>
+                    </button>
+                  </div>
+                </div>
+                <!-- Choice Player end -->
+                
+                <!-- VS Text Result start -->
+                <div class="vs-text-result">
+                    <div class="vs-text" id="vsText" >VS</div>
+                    <div class="box-result" id="result-box" style="visibility: hidden">
+                        <p class="text-result" id="result-text">Result</p>
+                    </div>
+                </div>
+                <!-- VS Text Result start -->
+
+                <!-- Choice Computer start -->
+                <div class="choice">
+                  <div class="choice-text">
+                    <h2>COMPUTER</h2>
+                  </div>
+                  <div class="choice-user">
+                    <button class="choice-rock">
+                      <img src="img/games/rock.png" alt="rock" id="computer-rock"/>
+                    </button>
+                    <button class="choice-paper">
+                      <img src="img/games/paper.png" alt="paper" id="computer-paper"/>
+                    </button>
+                    <button class="choice-scissors">
+                      <img src="img/games/scissors.png" alt="scissors" id="computer-scissors"/>
+                    </button>
+                  </div>
+                </div>
+                <!-- Choice Player end -->
+
+                <!-- Refresh start -->
+                <div class="refresh">
+                    <button id="refresh" type="reset">
+                      <img src="img/games/refresh.png" alt="refresh-button" onclick="refresh()"/>
+                    </button>
+                </div>
+                <!-- Refresh end -->
+
+            </div>   
+            <!-- Main game end --> 
+        </div>
+        
+    </section>
+
+    <script src="js/games/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>

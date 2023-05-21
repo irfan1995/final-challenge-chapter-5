@@ -1,0 +1,729 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+/* .body {
+    min-height: 2000px;
+}   */
+  
+/* styling section-main start */  
+
+.section-main {
+    min-height: 100vh;
+    background-image: linear-gradient(black 0%, transparent 50%, black 100%), url(../../img/index/main-bg.jpg);
+    /* background-image: url(../../img/index/main-bg.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+  /*.section-main::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 13%;
+    background:linear-gradient(0deg, rgba(253, 253, 252, 0.171)2%, rgba(255, 255, 255, 0)25%);
+  }
+  */
+
+    .section-main .navbar {
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+      font-size: 1rem;
+    }
+
+    .section-main .navbar .navbar-nav .nav-link {
+      transition: all 0.2s;
+    }
+
+    .section-main .navbar .navbar-nav .nav-link {
+      position: relative;
+    }
+
+    .section-main .navbar .navbar-nav .nav-link::after {
+      content: '';
+      opacity: 0;
+      transition: all 0.2s;
+      height: 2px;
+      width: 100%;
+      background-color: #FFB548;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .section-main .navbar .navbar-nav .nav-link:hover::after {
+      opacity: 1;
+    }
+
+    /* .navbar .navbar-nav .nav-link:hover {
+      background-color: #FFB548;
+      padding: 0.9rem;
+    }
+
+    .navbar .navbar-nav .nav-link{
+      transition: all 0.5s;
+    } */
+  
+    .section-main #navbarLogo {
+      font-size: 1.5rem;
+    }
+
+    .section-main .main-content {
+        font-family: Arial, Helvetica, sans-serif;  
+    }
+
+    /* .main-content h1,h3,h5 {
+        mix-blend-mode:difference ;
+    } */
+
+    .section-main .main-content h1 {
+        font-style: normal;
+        margin-top: 10rem;
+        font-size: 4.5rem;
+        font-weight: 700;
+        letter-spacing: 0.5rem;
+        line-height: 5rem;
+    }
+
+    .section-main .main-content h3 {
+        font-style: normal;
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+        line-height: 1.6rem;
+    }
+
+    .section-main .main-content #playnow {
+        font-family: "Open Sans", sans-serif;
+        background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+        margin-top: 2rem;
+        color: black;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 1rem 5% ;
+    }
+
+    .section-main .main-content h5 {
+        font-family: "Open Sans", sans-serif;
+        margin-top: 8rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+/* styling section-main end */     
+
+/* styling section-about-gallery start */  
+
+.section-about-gallery {
+    min-height: 100vh;
+    color: white;
+    background-image: linear-gradient(black 0%, transparent 50%, black 100%), url(../../img/index/the-games-bg.jpg);
+    /* background-image: url(../../img/index/the-games-bg.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+    .section-about-gallery h3, h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-top: 14rem;
+    }
+
+    .section-about-gallery h3 {
+        font-size: 1.5rem;
+    }
+
+    .section-about-gallery h1 {
+        font-size: 3rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .section-about-gallery .carousel-inner {
+        margin-top: 18rem;
+    }
+
+    .section-about-gallery .carousel-control-prev {
+        margin-left: -10rem;
+    }
+
+    .section-about-gallery .carousel-control-next {
+        margin-right: -10rem;
+    }
+
+/* styling section-about-gallery end */  
+
+/* styling section-features start*/ 
+
+.section-features {
+    min-height: 100vh;
+    background-image: linear-gradient(black 0%, transparent 50%, black 100%), url(../../img/index/features.jpg);
+    /* background-image: url(../../img/index/features.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+  .section-features p {
+      position: relative;
+      letter-spacing: 0.2rem;
+      font-size: 2vw;
+      top: 12vh;
+      left: 47vw;
+      width: 20vw;
+    }
+    
+  .section-features h2 {
+      position: relative;
+      letter-spacing: 0.5rem;
+      font-size: 3vw;
+      top: 12vh;
+      left: 47vw;
+      width: 16vw;
+    }
+
+  .section-features .row-wrapper {
+      /* width: 50%; */
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    }
+    
+    .section-features .StepProgress {
+      position: relative;
+      padding-left: 100px;
+      list-style: none;
+    }
+
+    .section-features .StepProgress li {
+      margin-top: 15%;
+      margin-left: 100%;
+      margin-bottom: -15%;
+      width: 26rem;
+    }
+
+    .section-features .StepProgress strong {
+      display: block;
+      color: #FFB548;
+    }
+
+    /* .StepProgress::before {
+      display: inline-block;
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 15px;
+      width: 10px;
+      height: 100%;
+      border-left: 2px solid #CCC;
+    } */
+
+    .section-features .StepProgress-item {
+      position: relative;
+      /* counter-increment: list; */
+    }
+
+    .section-features .StepProgress-item:not(:last-child) {
+      padding-bottom: 20px;
+    }
+
+    .section-features .StepProgress-item::before {
+      display: inline-block;
+      content: '';
+      position: absolute;
+      left: -2rem;
+      height: 98%;
+      width: 10px;
+    }
+
+    .section-features .StepProgress-item::after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: -40px;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #CCC;
+      border-radius: 50%;
+      background-color: #ffffff00;
+    }
+
+    .section-features .StepProgress-item.active::before {
+      border-left: 2px solid rgb(255, 255, 255);
+    }
+
+    .section-features .StepProgress-item.active::after {
+      content: "";
+      font-size: 10px;
+      color: #FFF;
+      text-align: center;
+      border: 2px solid rgb(255, 255, 255);
+      background-color: rgb(255, 255, 255);
+    }
+
+    /* .StepProgress-item.current::before {
+      border-left: 2px solid rgb(255, 255, 255);
+    } */
+    .section-features .StepProgress-item.transparant-line::after {
+      /* content: counter(list); */
+      padding-top: 10px;
+      width: 20px;
+      height: 20px;
+      top: -4px;
+      left: -40px;
+      font-size: 14px;
+      text-align: center;
+      color: rgb(248, 248, 248);
+      border: 2px solid rgb(255, 255, 255);
+      background-color: rgba(255, 255, 255, 0);
+    }
+  
+/* styling section-features end*/ 
+
+/* styling section-requirements start */
+
+.section-requirements {
+    min-height: 100vh;
+    background-image: linear-gradient(black 0%, transparent 50%, black 100%), url(../../img/index/requirements.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+  .section-requirements h3.title-requirements {
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.2rem;
+  }
+
+  .section-requirements p {
+    /* font-size: 1rem; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* letter-spacing: 0.1rem; */
+    margin-top: 10rem;
+  }
+
+  .section-requirements h1 {
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 1.5rem;
+  }
+
+  .section-requirements table {
+    border: 1px solid #979797;
+  }
+
+    .section-requirements h2 {
+      color: #FFB548;
+      margin-bottom: -1rem;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.5rem;
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    .section-requirements p {
+      color: #FFFFFF;
+      margin-top: 1.5rem;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.1rem;
+      line-height: 1.75rem;
+      text-align: justify;
+      letter-spacing: 0.1rem;
+    }
+
+/* styling section-requirements end */
+
+/* styling section-top-score-quotes start */
+
+.section-top-score-quotes {
+  height: 120vh;
+  background-image: linear-gradient(black 0%, transparent 50%, black 100%), url(../../img/index/top-score-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+  .section-top-score-quotes .top-score {
+    margin-left: 5rem;
+    position: relative;
+    top: 50vh;
+  }
+
+  .section-top-score-quotes .top-score h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+  }
+
+  .section-top-score-quotes .top-score p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-top: 1.25rem;
+    width: 40%;
+  }
+
+  .section-top-score-quotes .top-score #see-more {
+    font-family: "Open Sans", sans-serif;
+    background-color: #FFB548;
+    color: #1A1917;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    text-align: center;
+    text-transform: lowercase;
+    margin-top: 1.5rem;
+    width: 250px;
+    padding: 1rem;
+  }
+
+  .section-top-score-quotes .card-data {
+    position: relative;
+    top: 100px;
+    right: 100px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .section-top-score-quotes .card-col {
+    position: absolute;
+    right: -115px;
+    width: 800px;
+  }
+
+  .section-top-score-quotes .body-card {
+    background-color: rgba(255, 255, 255, 0.295);
+  }
+  
+    .section-top-score-quotes .body-card .picture {
+      float: left;
+      border-radius: 50%;
+      width: 50px;
+      box-shadow: 7px 1px#FFB548;
+    }
+    
+    .section-top-score-quotes .body-card .twitter {
+      position: absolute;
+      right: 15px;
+      top: 20px;
+    }
+    
+    .section-top-score-quotes .card-middle {
+      position: relative;
+      margin-left: -200px;
+      width: 100%;
+      height: 180px;
+    }
+    
+    .section-top-score-quotes .name {
+      margin: 0px;
+      position: relative;
+      left: 20px;
+    }
+    
+    .section-top-score-quotes .name .people {
+      color: #FFB548;
+      margin-bottom: -10px;
+      font-size: 24px;
+    }
+    
+    .section-top-score-quotes .name .jobdesk {
+      position: relative;
+      color: #FFFFFF;
+      font-size: 18px;
+      opacity: 0.5;
+    }
+
+    .section-top-score-quotes .card-text {
+      color: white;
+      font-weight: normal;
+      font-size: 16px;
+    }
+    
+    .section-top-score-quotes .card-footer {
+      margin-top: -15px;
+      font-size: 16px;
+    }
+
+/* styling section-top-score-quotes end */
+
+
+
+/* styling section-newsletter start */
+.section-newsletter-footer #footer {
+  min-height: 100vh;
+}
+
+.section-newsletter-footer .footer-news-bg {
+  background-image: linear-gradient(black 0%, transparent 50%, black 100%), url(../../img/index/top-score-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #080a0b;
+}
+
+.section-newsletter-footer .text-news {
+  color: #FFFFFF;
+}
+
+.section-newsletter-footer .text-news h5 {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.section-newsletter-footer .text-news h2 {
+  font-size: 4rem;
+}
+
+.section-newsletter-footer .text-news p {
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.section-newsletter-footer .form-news {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.section-newsletter-footer .form-news div {
+  position: relative;
+  height: 3rem;
+}
+
+.section-newsletter-footer .form-news input {
+  padding: 2rem 1rem 1rem 1rem;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: unset;
+}
+
+.section-newsletter-footer .form-news input:focus {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: unset;
+}
+
+.section-newsletter-footer .form-news input::placeholder {
+  color: #FFB548;
+}
+
+.section-newsletter-footer .footer-img-skull img {
+  width: 100%;
+}
+
+.section-newsletter-footer .inputLabel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 1.5rem;
+  padding-top: 0.25rem;
+  font-size: 0.6rem;
+}
+
+.section-newsletter-footer .footer-nav {
+  grid-template-columns: 9fr 3fr;
+}
+
+.section-newsletter-footer .footer-nav-left ul {
+  font-weight: bold;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.section-newsletter-footer .footer-nav-left a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.section-newsletter-footer .footer-nav-right {
+  text-align: right;
+  justify-content: space-evenly;
+}
+
+.section-newsletter-footer .copyright {
+  color: #FFFFFF;
+  border-top: 2px solid ;
+  padding: 1rem 0;
+}
+
+.section-newsletter-footer .copyright p {
+  text-align: left;
+  margin: 0;
+}
+
+.section-newsletter-footer .bottom-footer {
+  font-weight: bold;
+  text-align: right;
+}
+
+.section-newsletter-footer .bottom-footer a {
+  margin: 0.5rem;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.section-newsletter-footer .bottom-footer span {
+  color: #FFFFFF;
+}
+
+/* styling section-newsletter end */
+
+
+
+/* styling responsive web max width 767.98px */
+@media (max-width: 767.98px) {  
+
+  /* styling section-main start */ 
+  .section-main .main-content h1 {
+    font-style: normal;
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    line-height: 4rem;
+  }
+
+  .section-main .main-content h3 {
+    font-style: normal;
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    line-height: 1rem;
+  }
+
+  .section-main .main-content #playnow {
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    margin-top: 2rem;
+    color: black;
+    font-size: 0.6rem;
+    font-weight: bold;
+    padding: 0.6rem 3% ;
+  }
+
+  .section-main .main-content h5 {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 8rem;
+    font-size: 0.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  /* styling section-main end */ 
+
+  /* styling section-about-gallery */
+  .section-about-gallery h3, h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin-top: 2rem;
+  }
+
+  .section-about-gallery h3 {
+      font-size: 1rem;
+  }
+
+  .section-about-gallery h1 {
+      font-size: 2rem;
+      letter-spacing: 0.1rem;
+  }
+
+  .section-about-gallery .carousel-inner {
+      margin-top: 10rem;
+  }
+
+  .section-about-gallery .carousel-control-prev {
+      margin-left: -3.5rem;
+  }
+
+  .section-about-gallery .carousel-control-next {
+      margin-right: -3.5rem;
+  }
+  /* styling section-about-gallery end*/
+
+  /* styling section-features*/
+  .section-features .StepProgress {
+    display: none;
+  }
+  /* styling section-features end*/
+
+  /* styling section-requirements*/
+  .section-requirements h1 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 1.5rem;
+  }
+   /* styling section-requirements end*/
+
+  /* styling section-top-score-quotes*/ 
+   .section-top-score-quotes .card-data {
+    display: none;
+  }
+
+  /* styling section-top-score-quotes end*/ 
+
+  /* styling section-newsletter-footer*/ 
+  .section-newsletter-footer .text-news h5 {
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .section-newsletter-footer .text-news h2 {
+    font-size: 2rem;
+  }
+  
+  .section-newsletter-footer .text-news p {
+    font-size: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .section-newsletter-footer #inputEmail {
+    font-size: 0.7rem;
+  }
+
+  .section-newsletter-footer .form-news #submit {
+    font-size: smaller;
+  }
+  /* styling section-newsletter-footer end*/ 
+
+}
+
+/* styling responsive web max width 767.98px end */

@@ -1,0 +1,38 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/flat-t-rex-background_52683-10964.jpg?w=740&t=st=1684899536~exp=1684900136~hmac=bd87e115f9b0ffade2325d13f180ef609200b3179f0ee83ab88f8359c2cf0fce');
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.div-center {
+    padding-top: 10%;
+}
+
+form {
+    padding: 0 3em;
+    margin-top: -1rem;
+}
+
+#login {
+    color: #ffffff;
+}
+
+#login a {
+    font-size: 10px;
+}
+
+.btn.btn-primary {
+    background-color: #9c835f;
+    border: none;
+}
+
+.btn.btn-primary:hover {
+    background-color: #8f580c;
+}
+
+#login a.back {
+    color: #ffffff;
+}
